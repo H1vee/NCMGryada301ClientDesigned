@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>SIm2/BottonImage.bmp</file>
+        <file>SIm2/NetDevice.ico</file>
+        <file>SIm2/NetDevice2.ico</file>
+        <file>SIm2/buttonIcon.ico</file>
+        <file>SIm2/InfoErrorImage.ico</file>
+        <file>SIm2/InfoImage.ico</file>
+        <file>SIm2/SelectInsertImage.ico</file>
+        <file>SIm2/UserNetDevice.png</file>
+        <file>SIm2/UserLock.png</file>
+        <file>SIm2/UserWarning.png</file>
+        <file>SIm2/NetDeviceErrorPlate.ico</file>
+        <file>SIm2/NetDeviceCheckPlate.ico</file>
+        <file>SIm2/NetDeviceCheck.ico</file>
+        <file>SIm2/NetDeviceError.ico</file>
+    </qresource>
+</RCC>
