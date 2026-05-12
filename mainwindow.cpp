@@ -534,6 +534,13 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
     ui->SecurityParametersButton->setGeometry(
         addButtonPos.x() + config.leftOffset, baseY + config.buttonSpacing,
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
+
+#ifdef Q_OS_WIN
+    ui->groupBox->resize(230, ui->groupBox->height());
+    const QPoint spbPos = ui->SecurityParametersButton->pos();
+    const QSize spbSize = ui->SecurityParametersButton->size();
+    ui->SecurityParametersButton->setGeometry(spbPos.x(), spbPos.y(), 220, spbSize.height());
+#endif
 }
 
 void MainWindow::configureButtonVisibility()

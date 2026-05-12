@@ -673,7 +673,7 @@ background: rgba(255, 0, 0, 0);</string>
           <rect>
            <x>20</x>
            <y>40</y>
-           <width>230</width>
+           <width>191</width>
            <height>121</height>
           </rect>
          </property>
@@ -885,7 +885,7 @@ QPushButton::hover {
            <rect>
             <x>4</x>
             <y>80</y>
-            <width>220</width>
+            <width>181</width>
             <height>28</height>
            </rect>
           </property>
