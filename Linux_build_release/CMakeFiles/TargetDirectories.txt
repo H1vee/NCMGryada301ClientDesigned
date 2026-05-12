@@ -1,0 +1,5 @@
+/media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/CMakeFiles/NCMGryada301Client.dir
+/media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/CMakeFiles/edit_cache.dir
+/media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/CMakeFiles/rebuild_cache.dir
+/media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/CMakeFiles/NCMGryada301Client_autogen_timestamp_deps.dir
+/media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/CMakeFiles/NCMGryada301Client_autogen.dir

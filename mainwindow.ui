@@ -154,7 +154,7 @@
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>255</red>
              <green>255</green>
@@ -219,7 +219,7 @@
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>255</red>
              <green>255</green>
@@ -284,7 +284,7 @@
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>255</red>
              <green>255</green>
@@ -299,6 +299,7 @@
         <font>
          <family>Segoe UI</family>
          <pointsize>18</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -321,6 +322,7 @@ background: rgba(255, 0, 0, 0);</string>
        <property name="font">
         <font>
          <pointsize>8</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -475,7 +477,7 @@ background-position:  top right;</string>
              </brush>
             </colorrole>
             <colorrole role="PlaceholderText">
-             <brush brushstyle="NoBrush">
+             <brush brushstyle="SolidPattern">
               <color alpha="128">
                <red>255</red>
                <green>255</green>
@@ -540,7 +542,7 @@ background-position:  top right;</string>
              </brush>
             </colorrole>
             <colorrole role="PlaceholderText">
-             <brush brushstyle="NoBrush">
+             <brush brushstyle="SolidPattern">
               <color alpha="128">
                <red>255</red>
                <green>255</green>
@@ -605,7 +607,7 @@ background-position:  top right;</string>
              </brush>
             </colorrole>
             <colorrole role="PlaceholderText">
-             <brush brushstyle="NoBrush">
+             <brush brushstyle="SolidPattern">
               <color alpha="128">
                <red>255</red>
                <green>255</green>
@@ -620,6 +622,7 @@ background-position:  top right;</string>
           <font>
            <family>Segoe UI</family>
            <pointsize>19</pointsize>
+           <bold>false</bold>
           </font>
          </property>
          <property name="styleSheet">
@@ -695,6 +698,7 @@ background: rgba(255, 0, 0, 0);</string>
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -736,6 +740,7 @@ QPushButton::hover {
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -774,6 +779,7 @@ QPushButton::hover {
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -811,6 +817,7 @@ QPushButton::hover {
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -847,6 +854,7 @@ QPushButton {
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -884,6 +892,7 @@ QPushButton::hover {
           <property name="font">
            <font>
             <family>Sans Serif</family>
+            <bold>false</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -899,7 +908,7 @@ QPushButton::hover {
 </string>
           </property>
           <property name="text">
-           <string>Параметри бепеки...</string>
+           <string>Параметри безпеки...</string>
           </property>
           <property name="icon">
            <iconset resource="images.qrc">
@@ -1223,6 +1232,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1244,6 +1254,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1265,6 +1276,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1286,6 +1298,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1307,6 +1320,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1328,6 +1342,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1349,6 +1364,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -1370,6 +1386,7 @@ background: none;</string>
        <property name="font">
         <font>
          <pointsize>9</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">

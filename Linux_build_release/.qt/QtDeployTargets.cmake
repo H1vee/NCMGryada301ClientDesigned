@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_NCMGryada301Client_FILE /media/shingesa/Akunamatata/Client_ALL_OSS/app_code/NCMGryada301Client/Linux_build_release/NCMGryada301Client)
+set(__QT_DEPLOY_TARGET_NCMGryada301Client_TYPE EXECUTABLE)
