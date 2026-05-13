@@ -534,6 +534,19 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
     ui->SecurityParametersButton->setGeometry(
         addButtonPos.x() + config.leftOffset, baseY + config.buttonSpacing,
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
+
+#ifdef Q_OS_WIN
+    const int WIN_EXTRA_WIDTH = 15;
+    ui->groupBox->resize(ui->groupBox->width() + WIN_EXTRA_WIDTH, ui->groupBox->height());
+    ui->ModulesLabel->resize(ui->ModulesLabel->width() + WIN_EXTRA_WIDTH, ui->ModulesLabel->height());
+    QPushButton* const winButtons[] = {
+        ui->AddItemButton, ui->UpdateItemButton, ui->DeleteItemButton,
+        ui->ChangeItemButton, ui->ChangeItemPasswordButton, ui->SecurityParametersButton
+    };
+    for (QPushButton* btn : winButtons) {
+        btn->resize(btn->width() + WIN_EXTRA_WIDTH, btn->height());
+    }
+#endif
 }
 
 void MainWindow::configureButtonVisibility()
