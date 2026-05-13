@@ -536,10 +536,16 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
 
 #ifdef Q_OS_WIN
-    ui->groupBox->resize(230, ui->groupBox->height());
-    const QPoint spbPos = ui->SecurityParametersButton->pos();
-    const QSize spbSize = ui->SecurityParametersButton->size();
-    ui->SecurityParametersButton->setGeometry(spbPos.x(), spbPos.y(), 220, spbSize.height());
+    const int WIN_EXTRA_WIDTH = 15;
+    ui->groupBox->resize(ui->groupBox->width() + WIN_EXTRA_WIDTH, ui->groupBox->height());
+    ui->ModulesLabel->resize(ui->ModulesLabel->width() + WIN_EXTRA_WIDTH, ui->ModulesLabel->height());
+    QPushButton* const winButtons[] = {
+        ui->AddItemButton, ui->UpdateItemButton, ui->DeleteItemButton,
+        ui->ChangeItemButton, ui->ChangeItemPasswordButton, ui->SecurityParametersButton
+    };
+    for (QPushButton* btn : winButtons) {
+        btn->resize(btn->width() + WIN_EXTRA_WIDTH, btn->height());
+    }
 #endif
 }
 
