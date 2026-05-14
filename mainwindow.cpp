@@ -536,7 +536,11 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
 
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+#ifdef Q_OS_WIN
     const int EXTRA_BUTTON_WIDTH = 7;
+#else
+    const int EXTRA_BUTTON_WIDTH = 9;
+#endif
     ui->groupBox->resize(ui->groupBox->width() + EXTRA_BUTTON_WIDTH, ui->groupBox->height());
     ui->ModulesLabel->resize(ui->ModulesLabel->width() + EXTRA_BUTTON_WIDTH, ui->ModulesLabel->height());
     QPushButton* const extraWidthButtons[] = {
