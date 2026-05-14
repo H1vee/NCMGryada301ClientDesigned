@@ -535,16 +535,16 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
         addButtonPos.x() + config.leftOffset, baseY + config.buttonSpacing,
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
 
-#ifdef Q_OS_WIN
-    const int WIN_EXTRA_WIDTH = 15;
-    ui->groupBox->resize(ui->groupBox->width() + WIN_EXTRA_WIDTH, ui->groupBox->height());
-    ui->ModulesLabel->resize(ui->ModulesLabel->width() + WIN_EXTRA_WIDTH, ui->ModulesLabel->height());
-    QPushButton* const winButtons[] = {
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+    const int EXTRA_BUTTON_WIDTH = 7;
+    ui->groupBox->resize(ui->groupBox->width() + EXTRA_BUTTON_WIDTH, ui->groupBox->height());
+    ui->ModulesLabel->resize(ui->ModulesLabel->width() + EXTRA_BUTTON_WIDTH, ui->ModulesLabel->height());
+    QPushButton* const extraWidthButtons[] = {
         ui->AddItemButton, ui->UpdateItemButton, ui->DeleteItemButton,
         ui->ChangeItemButton, ui->ChangeItemPasswordButton, ui->SecurityParametersButton
     };
-    for (QPushButton* btn : winButtons) {
-        btn->resize(btn->width() + WIN_EXTRA_WIDTH, btn->height());
+    for (QPushButton* btn : extraWidthButtons) {
+        btn->resize(btn->width() + EXTRA_BUTTON_WIDTH, btn->height());
     }
 #endif
 }
