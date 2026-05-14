@@ -536,7 +536,7 @@ void MainWindow::configureButtonGeometry(const ButtonLayoutConfig& config)
         addButtonSize.width() + config.buttonWidth, addButtonSize.height());
 
 #ifdef Q_OS_WIN
-    const int WIN_EXTRA_WIDTH = 15;
+    const int WIN_EXTRA_WIDTH = 7;
     ui->groupBox->resize(ui->groupBox->width() + WIN_EXTRA_WIDTH, ui->groupBox->height());
     ui->ModulesLabel->resize(ui->ModulesLabel->width() + WIN_EXTRA_WIDTH, ui->ModulesLabel->height());
     QPushButton* const winButtons[] = {
